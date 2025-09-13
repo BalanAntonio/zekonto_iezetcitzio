@@ -34,7 +34,7 @@
                     Console.WriteLine("Errore: inserire di nuovo l'elemento");
                 }
 
-                int test = arrei[i] * arrei[i-1];   //
+                int test = arrei[i] * arrei[i - 1]; //moltiplicando due numeri se questi sono di segno opposto daranno sempre un prodotto negativo
                 if (test < 0) { cambi++; }
             }
             Console.WriteLine($"Numero di cambi totali: {cambi}");
